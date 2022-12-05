@@ -1,0 +1,79 @@
+/* end */
+.end{
+
+}
+.end-content{
+   overflow: hidden;
+}
+.end-item{
+    width: 30%;
+    float: left;
+    background-color: #a8a8a8;
+    padding: 40px 10px;
+    text-align: center;
+
+}
+.end-item.mg{
+    margin: 0 5%;
+}
+.end-item .end-image{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.end-item .end-image img{
+    width: 100%;
+}
+.end-item h3{
+    color: #222;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    transition: color .5s;
+    margin: 10px;
+}
+.end-item span{
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: color .5s;
+
+}
+.end-item .end-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s;
+}
+.end-item:hover .end-overlay{
+    opacity: 1;
+    visibility: visible;
+}
+.end-item .end-overlay a{
+    display: block;
+    color: white;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background-color: var(--maincolor);
+    margin-left: auto;
+
+}
+.end-item .end-overlay a i {
+    line-height: 40px;
+}
+
+.end-item.tb-effect:hover{
+    z-index: 1;
+}
+.end-item:hover h3{
+    color: white;
+}
+.end-item:hover span{
+    color: white;
+}

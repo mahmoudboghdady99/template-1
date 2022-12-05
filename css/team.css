@@ -1,0 +1,43 @@
+/* team */
+.team{
+    height: 350px;
+    background-image: url(../images/background/background2.webp);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.team-content{
+    overflow: hidden;
+    color: white;
+    padding: 110px 0;
+    text-align: center;
+}
+.team-item{
+    width: 50%;
+    float: left;
+}
+.team-item .toplayer {
+    position: relative;
+    padding: 10px 2px 40px 40px;
+
+}
+.team-item .toplayer img{
+    position: absolute;
+    left: 28%;
+    top: 10px;
+    border-radius: 50%;
+}
+.team-item .toplayer .title{
+    color: var(--maincolor);
+    text-transform: capitalize;
+   
+}
+.team-item .toplayer .text{
+    color: var(--whitecolor);
+    text-transform: uppercase;
+    margin: 10px;
+}
+.team-item  .desc{
+    color: #e8e8e8;
+   line-height: 1.2;
+}
